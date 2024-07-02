@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=New+Rocker&family=Unica+One&display=swap');
+
 body{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Barlow Condensed;
     margin: 0;
     padding: 0;
 }
@@ -8,13 +12,15 @@ body{
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background: linear-gradient(rgb(16, 16, 88), black);
+    background: linear-gradient(rgb(16, 16, 88), rgb(61, 59, 59));
     color: white;
 }
 
 .titulo-principal{
     text-align: center;
     font-size: 3em;
+    font-family: Unica One, sans-serif;
+    text-shadow: 2px 2px 4px rgb(2, 3, 2);
 }
 
 .banner{
@@ -43,4 +49,8 @@ body{
     object-fit: cover;
     border-radius: 7.5px;
     box-shadow: 5px 5px 10px black;
+}
+
+.titulo-sinopse{
+    font-family: New Rocker, system-ui;
 }
